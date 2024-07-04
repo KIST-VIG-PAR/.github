@@ -14,6 +14,7 @@
 ## Dataset
 이 레포지토리에 있는 실험을 하기 위해선 **PA100k, PETA, RAP2, Market1501, UPAR, 그리고 KIST 실외 데이터셋**이 필요합니다.  
 데이터셋들은 [여기 (비밀번호: vigvig)](https://filesharelink.kist.re.kr/link/G8YC7jkS)에서 다운로드 받으실 수 있습니다.  
+다운로드 받으실 수 없는 경우 **NAS (orange) server**에서 `aiid/dataset/re-id/Dataset/00_Attribute` 에서 찾아 다운로드 받으시면 됩니다.  
 각 데이터셋의 폴더 구조는 아래와 같아야 합니다.  
 ```
 home/data
@@ -80,7 +81,8 @@ home/data
 
 ### Visualization
 
-시각화 자료는 SOLIDER, PromptPAR, SEEM-PAR 모델을 기반으로 합니다.
+시각화 자료는 SOLIDER, PromptPAR, SEEM-PAR 모델을 기반으로 합니다.   
+다운로드 받을 수 없는 경우, 업로드 된 가중치를 통해 visualization 코드를 실행하면 같은 결과가 나옵니다.  
 
 * [KIST 실외 데이터 패치별 시각화](https://filesharelink.kist.re.kr/link/c7NXubET) 비밀번호: vigvig
 * [KIST 실외데이터 동영상 시각화](https://filesharelink.kist.re.kr/link/eOG0imRv) 비밀번호: vigvig
